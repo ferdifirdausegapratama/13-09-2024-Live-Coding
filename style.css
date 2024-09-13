@@ -1,0 +1,13 @@
+.btn btn-success {
+    background-color: #5cb85f
+}
+
+.row {
+    padding-top: 1rem; 
+    padding-bottom: 0.5rem; 
+    gap: 0.25rem; 
+    background-color: #f1f3ff;
+}
+.btn-primary {
+    background-color: #5cb85f
+}

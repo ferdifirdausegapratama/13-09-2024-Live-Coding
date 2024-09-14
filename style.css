@@ -1,13 +1,43 @@
-.btn btn-success {
-    background-color: #5cb85f
+/*Mengatur Font Keseluruhan*/
+body {
+  font-family: Helvetica; 
 }
 
-.row {
-    padding-top: 1rem; 
-    padding-bottom: 0.5rem; 
-    gap: 0.25rem; 
-    background-color: #f1f3ff;
+/*Mengatur warna latar belakang*/
+.navbar {
+  background-color: #f1f3ff; 
 }
+
+/*Mengatur warna latar belakang*/
+#home {
+  background-color: #f1f3ff; 
+}
+
+/*Mengatur tombol dengan kelas 'btn btn-success'*/
+.btn.btn-success {
+  background-color: #5cb85f; 
+}
+
+/*Mengatur tombol dengan kelas 'btn-primary'*/
 .btn-primary {
-    background-color: #5cb85f
+  background-color: #5cb85f; 
+}
+
+/*Mengatur padding vertikal 'description'*/
+#description {
+  padding-top: 16px; 
+  padding-bottom: 16px; 
+}
+
+/* Mengatur gaya untuk elemen dengan kelas 'car_rental' */
+.car_rental {
+  padding: 70px; 
+  background-color: #0d28a6; 
+  color: white; 
+  border-radius: 13px; 
+  margin-top: 20px; 
+  /*Menggunakan Flexbox*/
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
